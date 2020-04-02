@@ -18,6 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RecipeService } from './recipes/recipe.service';
 import { HttpClientModule } from '@angular/common/http';
 import { from } from 'rxjs';
+import { RecipesResolverService } from './recipes/recipes-resolver.service';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,7 @@ import { from } from 'rxjs';
     FormsModule,
     HttpClientModule
   ],
-  providers: [ShoppingListService,RecipeService],
+  providers: [ShoppingListService,RecipeService,RecipesResolverService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

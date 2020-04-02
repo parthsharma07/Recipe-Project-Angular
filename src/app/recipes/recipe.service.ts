@@ -8,24 +8,30 @@ import { Subject } from 'rxjs';
 export class RecipeService{
     recipesChanged = new Subject<Recipe[]>();
 
-    private recipes: Recipe[] = [
-        new Recipe('its test',
-         'parth is testing',
-          'https://www.acouplecooks.com/wp-content/uploads/2019/01/Crispy-Cauliflower-Tacos-038.jpg', 
-          [
-              new Ingredient('Potatoes',1),
-              new Ingredient('French Fries',20)
-          ]),
-        new Recipe('its test two',
-         'parth has tested',
-          'https://www.acouplecooks.com/wp-content/uploads/2019/01/Crispy-Cauliflower-Tacos-038.jpg', 
-          [
-              new Ingredient('Buns',2),
-              new Ingredient('Potatoes',1)
-          ])
-      ];
+    // private recipes: Recipe[] = [
+    //     new Recipe('its test',
+    //      'parth is testing',
+    //       'https://www.acouplecooks.com/wp-content/uploads/2019/01/Crispy-Cauliflower-Tacos-038.jpg', 
+    //       [
+    //           new Ingredient('Potatoes',1),
+    //           new Ingredient('French Fries',20)
+    //       ]),
+    //     new Recipe('its test two',
+    //      'parth has tested',
+    //       'https://www.acouplecooks.com/wp-content/uploads/2019/01/Crispy-Cauliflower-Tacos-038.jpg', 
+    //       [
+    //           new Ingredient('Buns',2),
+    //           new Ingredient('Potatoes',1)
+    //       ])
+    //   ];
+    private recipes: Recipe[] = [];
 
     constructor(private slService: ShoppingListService) {}  
+
+    setRecipes(recipes: Recipe[]){
+        this.recipes = recipes;
+        this.recipesChanged.next(this.recipes.slice());
+    }
 
     getRecipes(){
         return this.recipes.slice();
