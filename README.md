@@ -1,4 +1,4 @@
-# Recipe and Ingredients Manager
+# Recipe & Ingredients Manager
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
