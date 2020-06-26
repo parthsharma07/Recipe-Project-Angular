@@ -1,6 +1,5 @@
 # Recipes - Ingredients Management
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
 ## Website Description:
 ### This is a web application used to manage your recipe-book for different items and also adding those recipe items in your shopping list.
