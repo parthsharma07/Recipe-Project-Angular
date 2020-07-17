@@ -2,6 +2,8 @@
 
 ## Supported Versions
 
+### This website is supported by all the versions in all the systems.
+
 | Version | Supported          |
 | ------- | ------------------ |
 | 5.1.x   | :white_check_mark: |
