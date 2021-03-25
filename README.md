@@ -1,4 +1,4 @@
-# Recipe - Ingredient Manager
+# Recipe - Ingredient Manager:
 
 
 ## Website Description:
