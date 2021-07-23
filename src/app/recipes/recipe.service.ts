@@ -17,7 +17,8 @@ export class RecipeService{
     //       'https://www.acouplecooks.com/wp-content/uploads/2019/01/Crispy-Cauliflower-Tacos-038.jpg', 
     //       [
     //           new Ingredient('Potatoes',1),
-    //           new Ingredient('French Fries',20)
+    //           new Ingredient('French Fries',20),
+    //           new Ingredient('Chillies',150)
     //       ]),
     //     new Recipe('its test two',
     //      'parth has tested',
