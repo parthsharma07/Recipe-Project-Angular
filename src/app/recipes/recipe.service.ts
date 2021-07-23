@@ -25,7 +25,8 @@ export class RecipeService{
     //       'https://www.acouplecooks.com/wp-content/uploads/2019/01/Crispy-Cauliflower-Tacos-038.jpg', 
     //       [
     //           new Ingredient('Buns',2),
-    //           new Ingredient('Potatoes',1)
+    //           new Ingredient('Potatoes',1),
+    //           new Ingredient('Sausage',10)
     //       ])
     //   ];
     private recipes: Recipe[] = [];
