@@ -28,7 +28,6 @@ export class RecipeService{
     //           new Ingredient('Potatoes',1),
     //           new Ingredient('Sausage',10)
     //       ])
-    //   ];
     private recipes: Recipe[] = [];
 
     constructor(private slService: ShoppingListService, private store: Store<fromApp.AppState>) {}  
