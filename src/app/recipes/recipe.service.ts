@@ -25,7 +25,7 @@ export class RecipeService{
     //       'https://www.acouplecooks.com/wp-content/uploads/2019/01/Crispy-Cauliflower-Tacos-038.jpg', 
     //       [
     //           new Ingredient('Buns',2),
-    //           new Ingredient(),
+    //           new ,
     private recipes: Recipe[] = [];
 
     constructor(private slService: ShoppingListService, private store: Store<fromApp.AppState>) {}  
