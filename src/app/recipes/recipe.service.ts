@@ -24,7 +24,7 @@ export class RecipeService{
     //      'parth has tested',
     //       'https://www.acouplecooks.com/wp-content/uploads/2019/01/Crispy-Cauliflower-Tacos-038.jpg', 
     //       [
-    //           new
+    //          
     private recipes: Recipe[] = [];
 
     constructor(private slService: ShoppingListService, private store: Store<fromApp.AppState>) {}  
