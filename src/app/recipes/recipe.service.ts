@@ -22,7 +22,7 @@ export class RecipeService{
     //       ]),
     //     new Recipe('its test two',
     //      'parth has tested',
-    //       'https://www.acouplecooks.com/wp-content
+    //      
     private recipes: Recipe[] = [];
 
     constructor(private slService: ShoppingListService, private store: Store<fromApp.AppState>) {}  
