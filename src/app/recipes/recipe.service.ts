@@ -22,7 +22,6 @@ export class RecipeService{
     //       ]),
     //     new Recipe('its test two',
     //      'parth has tested',
-          
     private recipes: Recipe[] = [];
 
     constructor(private slService: ShoppingListService, private store: Store<fromApp.AppState>) {}  
