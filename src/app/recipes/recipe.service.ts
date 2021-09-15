@@ -21,7 +21,7 @@ export class RecipeService{
     //           new Ingredient('Chillies',150)
     //       ]),
     //     new Recipe('its test two',
-    //      'parth has tested'
+    //      'parth has
     private recipes: Recipe[] = [];
 
     constructor(private slService: ShoppingListService, private store: Store<fromApp.AppState>) {}  
