@@ -22,7 +22,7 @@ export class ShoppingListComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.ingredients = this.store.select('shoppingList');
-    this.loggingService.printLog('hello from shopping list component');
+    this.loggingService.printLog('hello from the shopping list component');
   }
 
   onEditItem(index: number){
